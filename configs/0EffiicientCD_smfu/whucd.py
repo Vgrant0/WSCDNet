@@ -5,7 +5,7 @@ _base_ = [
 
 import os
 #data_root = os.path.join(os.environ.get("CDPATH"), 'WHUCD')
-data_root='/data1/smfu_data/WHUCD'
+data_root='/data8T/DSJJ/CDdata/WHUCD_smfu/WHUCD/'
 crop_size = (256, 256)
 
 # model settings

@@ -10,7 +10,7 @@ from .seg_tta import SegTTAModel
 from .EfficientCD import EfficientCD
 from .EfficientCD_Resnet import EfficientCD_Resnet
 from .EfficientCD_Swin import EfficientCD_Swin
-from .WSCDnet import WSCDnet
+from .WSCDnet import EfficientCD_wscd
 
 from .cd_models.MMCD import MM_BIT, MM_CDNet, MM_LUNet, MM_P2V, MM_DSIFN, MM_SNUNet, MM_STANet, MM_SiamUNet_conc, MM_SiamUNet_diff, MM_MFPNet, MM_SUNet, MM_MSCANet, MM_CGNet, \
     MM_HCGMNet
@@ -21,5 +21,5 @@ __all__ = [
     'MM_BIT', 'MM_CDNet', 'MM_LUNet', 'MM_P2V', 'MM_DSIFN', 'MM_SNUNet',
     'MM_STANet', 'MM_SiamUNet_conc', 'MM_SiamUNet_diff', 'MM_MFPNet', 'MM_SUNet',
     'MM_MSCANet', 'MM_CGNet', 'MM_HCGMNet', 'EfficientCD', 'EfficientCD_Resnet',
-    'EfficientCD_Swin'
+    'EfficientCD_Swin', 'EfficientCD_wscd'
 ]
